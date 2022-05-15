@@ -8,7 +8,7 @@ def try_ex_dec(fn):
             fn(*args, **kwargs)
         except Exception as e:
             print('ошибка:', e)
-
+    # овлорлыр
     return wrapped
 
 # сбор информации по айпи
