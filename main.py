@@ -10,7 +10,7 @@ def try_ex_dec(fn):
             print('ошибка:', e)
 
     return wrapped
-
+# comment1
 @try_ex_dec
 def check_by_ip(source='http://ip-api.com/json/', ip=''):
     response = requests.get(url=source+ip).json()
