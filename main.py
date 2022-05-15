@@ -26,7 +26,7 @@ def check_by_ip(source='http://ip-api.com/json/', ip=''):
     print(response)
     return response
 
-
+# комментарий 3
 if __name__ == '__main__':
     check_by_ip(ip='185.2.154.85')
 
