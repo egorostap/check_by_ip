@@ -11,7 +11,7 @@ def try_ex_dec(fn):
 
     return wrapped
 
-
+# добавили ветку дев1
 @try_ex_dec
 def check_by_ip(source='http://ip-api.com/json/', ip=''):
     response = requests.get(url=source+ip).json()
